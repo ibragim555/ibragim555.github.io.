@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soska Message</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+      body {
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(135deg, #1f1c2c, #928dab);
+        font-family: "Russo One", sans-serif;
+        overflow: hidden;
+      }
+
+      h1 {
+        font-size: 5em;
+        color: #fff;
+        text-shadow: 0 0 10px #ff3cac, 0 0 20px #784ba0, 0 0 30px #2b86c5;
+        animation: pop 1.5s ease-out forwards;
+        opacity: 0;
+      }
+
+      @keyframes pop {
+        0% {
+          transform: scale(0.5);
+          opacity: 0;
+        }
+        100% {
+          transform: scale(1);
+          opacity: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Ебать ты Soska!</h1>
+  </body>
+</html>
